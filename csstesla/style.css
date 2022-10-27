@@ -1,0 +1,224 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+div.photo{
+    
+    position: relative;
+    
+}
+div.photo img{
+    height: 600px;
+    width: 100%;
+}
+div.text_float{
+    position: absolute;
+    top: 0%;
+    left:10%;
+
+}
+div.header{
+    display: flex;
+    gap: 900px;
+    
+}
+div.mal{
+    color: black;
+}
+div.manu{
+     background-color:rgb(58, 115, 172);
+    padding: 5px;
+    border-radius: 2px;
+    color:black;
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+span p{
+    margin-top: -20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.mal{
+letter-spacing: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: x-large;
+}
+
+div.dolar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    margin-left: 60px;
+    
+}
+h3.order{
+    margin-left: 40%;
+    border: solid;
+    /* margin-top: -10px; */
+    border-color: white;
+    color: white;
+    width: 300px;
+    text-align: center;
+}
+ div.dark_region{
+     margin: 0;
+     padding: 0;
+     margin-top: -30px;
+    box-shadow: 0px 0px 80px 220px rgb(8, 8, 8);
+
+} 
+div.test_slide{
+    animation: slide-up 3s;
+}
+@keyframes slide-up{
+    from{
+        opacity: 0.2;
+        line-height: 50px;
+    }
+    to{
+        opacity: 1;
+        line-height: 20px;
+    }
+}
+div.vim img{
+    position: relative;
+}
+div.vim .dolar{
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    
+}
+div.white_girl{
+    background-color: white;
+    color: black;
+    margin-top: -21px;
+    margin-bottom: -21px;
+}
+div.white_girl h3{
+    border: solid;
+    text-align: center;
+    width: 250px;
+}
+div.slate{
+    background-color: rgb(236, 237, 238);
+    color: black;
+    margin-top: -21px;
+    margin-bottom: -21px;
+}
+div.text_line hr{
+    width: 200px;
+    padding: 2px;
+}
+div.text_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(236, 237, 238);
+    color: black;
+    margin-top: -5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div.road{
+    position: relative;
+}
+div.road .dolar{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+div.bc{
+    color: black;
+    
+}
+div.below_map{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: white;
+    color: black;
+    margin-top: -51px;
+}
+h3.lone{
+    background-color: white;
+    border: solid;
+    text-align: center;
+}
+div.spit{
+margin-top: -25px;
+}
+div.chew{
+margin-top: -23px;
+}
+div.Below_whiteRed{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    color: black;
+}
+div.white_redCar,.motor{
+    background-color: white;
+    color: black;
+}
+div.Below_whiteRed hr{
+    width:solid 200px;
+    
+}
+div.Boxes{
+display: flex;
+gap: 20px;
+color: white;
+}
+ div.dark_carBox{
+    border: solid 2px;
+    border-color: rgb(236, 237, 238);
+    text-align: center;
+    padding: 2px;
+}
+div.borderless{
+    border: solid 1px;
+    border-color: rgb(202, 202, 202);
+    text-align: center;
+    padding: 2px;
+} 
+div.dark_carText{
+    display: flex;
+    gap: 20px;
+}
+div.dark_carText hr{
+    width: 50px;
+}
+div.para{
+    text-align: center;
+}
+div.foot{
+text-align: center;
+}
+/* div.slide{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3.slid{
+    position: relative;
+    font-family: tahoma;
+    font-size: 35px;
+    opacity: 0;
+}
+h3.slid{
+    top: 40px;
+    left: 10px;
+    font-weight: bold;
+    animation: slideUp ease  1.9s forwards .9s;
+
+} */
